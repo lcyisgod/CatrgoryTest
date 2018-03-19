@@ -8,6 +8,7 @@
 
 #import "Person.h"
 //类别的作用是给现有类添加新的私有属性或者方法
+//在类别中声明的方法必须要实现，否则调用会报错
 
 @interface Person ()
 @property (nonatomic,copy) NSString *name;
