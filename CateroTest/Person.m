@@ -9,6 +9,10 @@
 #import "Person.h"
 #import "Person+Customer.h"
 
+@interface Person()
+
+@end
+
 @implementation Person
 
 -(instancetype)init {
